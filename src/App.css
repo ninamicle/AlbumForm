@@ -1,0 +1,28 @@
+.figure {
+    width: 20%;
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: left;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+.form {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.containerPokedex {
+    max-width: 1024px;
+    margin: 0 auto;
+    /* in  centro */
+}
