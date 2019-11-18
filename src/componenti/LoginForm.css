@@ -53,36 +53,29 @@ input.error{
     font-size: 0.75em;
     display: relative;
 }
-.firstName{
+.username{
     margin-right: 1%;
 
 }
-.lastName{
-    margin-left: 1;
-}
-.firstName,
-.lastName,
-.email,
+
+.username,
 .password{
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
-.firstName,
-.lastName{
-    width: 49%;
-}
-.email,
+
+.username,
 .password{
     width: 100%;
 }
-.createAccount{
+.login{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.createAccount button{
+.login button{
 background-color: rgb(219, 15, 83);
 color: khaki;
 border: 2px solid #ffffff;
@@ -92,14 +85,22 @@ padding: 8px 0;
 font-size: 1em;
 font-weight: lighter;
 letter-spacing: 1px;
-margin-bottom: 0,25em;
+margin-bottom :  0,25em !important; 
 }
-.createAccount button:hover{
+.login button:hover{
     color: #e02453;
     background-color: #fff;
     border: 2px solid #e02453;
 }
-.createAccount small {
-    color:#999;
-    font-weight: lighter;
+
+/* ho stilizzato il bottone link */
+.login a
+{   width: 100%;
+    color: rgb(255,64,129);
+    font-weight: 300;
+    text-align: center;
+}
+img{
+    width: 70px;
+    padding-left: 160px;
 }

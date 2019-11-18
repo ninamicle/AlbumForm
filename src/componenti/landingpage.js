@@ -1,5 +1,6 @@
 import React from 'react';
 import LoginForm from './LoginForm';
+import SignIn from './SignIn';
 import './LoginForm.css'
 
 class LandingPage extends React.Component {
@@ -7,6 +8,7 @@ class LandingPage extends React.Component {
         return(
             <div>
             <LoginForm />
+            <SignIn />
             </div>
         )
     }

@@ -4,6 +4,7 @@ import './App.css';
 import Main from './componenti/main';
 import {Link} from 'react-router-dom';
 
+
 function App() {
   return (
     
@@ -13,6 +14,7 @@ function App() {
             <Navigation>
                 <Link to="/myprofile">MyProfile</Link>
                 <Link to="/LoginForm">Login</Link>
+                
                 <Link to="/pokedex">Pokedex</Link>
             </Navigation>
         </Header>
@@ -20,6 +22,8 @@ function App() {
             <Navigation>
             <Link to="/myprofile">MyProfile</Link>
             <Link to="/LoginForm">Login</Link>
+            
+            
             <Link to="/pokedex">Pokedex</Link>
             </Navigation>
         </Drawer>
